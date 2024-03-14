@@ -5,15 +5,13 @@ const sumAll = function(a, b) {
       for (let i = a; i <= b; i++) {
         sum += i;
       };
-    } else if (0 <= b < a) {
+    } else {
       for (let i = b; i <= a; i++) {
         sum += i;
-      } 
-    } else {
-        sum = 'ERROR';
       };
-      return sum;
+    };
   } else {return sum = 'ERROR'};
+return sum;
 };
 
 // Do not edit below this line
